@@ -8,7 +8,7 @@ mongoose.Promise = global.Promise;
 mongoose.set('debug', true);
 
 // remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud s
-const uri = 'mongodb+srv://si112114:si112114@tdangular.hesxtrz.mongodb.net/assignmentsDB?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://si112114:si112114@tdangular.hesxtrz.mongodb.net/?appName=TDAngular';
 
 const options = {
   useNewUrlParser: true,
